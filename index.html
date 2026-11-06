@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#171d50">
+    <meta name="description" content="Personal portfolio Augustav Fahrul Alzaiya — Informatics Graduate, Backend Developer, Application Tester, and Computer Networking Enthusiast.">
+
+    <title>Augustav Fahrul Alzaiya | Pixel Night Adventure</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- LOADING SCREEN -->
+    <div class="loader" id="loader" aria-label="Loading website">
+        <div class="loader-stars">✦　·　✧　·　✦</div>
+        <p>LOADING MY WORLD...</p>
+        <div class="loading-track"><span></span></div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <a class="brand" href="#home" aria-label="Augustav home">
+            <span class="brand-mark">A</span>
+            <span>AUGUSTAV<span class="brand-dot">.</span></span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Buka navigasi" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="main-nav" id="mainNav">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero pixel-scene" id="home">
+            <div class="stars" aria-hidden="true"></div>
+            <div class="moon" aria-hidden="true"></div>
+            <div class="cloud cloud-one" aria-hidden="true"></div>
+            <div class="cloud cloud-two" aria-hidden="true"></div>
+            <div class="meteor" aria-hidden="true"></div>
+
+            <div class="castle" aria-hidden="true">
+                <i></i>
+                <b></b>
+                <span></span>
+            </div>
+
+            <div class="hero-content">
+                <p class="eyebrow">
+                    <span class="status-dot"></span>
+                    PLAYER PROFILE / AVAILABLE FOR OPPORTUNITIES
+                </p>
+
+                <p class="pixel-kicker">HELLO, WORLD!</p>
+
+                <h1>
+                    AUGUSTAV<br>
+                    <span>FAHRUL ALZAIYA</span>
+                </h1>
+
+                <p class="hero-subtitle">Welcome to My Digital World</p>
+
+                <p class="hero-description">
+                    Informatics Graduate <span>✦</span>
+                    Backend Developer <span>✦</span>
+                    Application Tester <span>✦</span>
+                    Computer Networking Enthusiast
+                </p>
+
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#about">
+                        Explore My Profile <span>↘</span>
+                    </a>
+                    <a class="btn btn-ghost" href="#projects">
+                        View My Projects
+                    </a>
+                </div>
+
+                <a class="scroll-cue" href="#about">
+                    <span class="scroll-line"></span>
+                    SCROLL TO EXPLORE
+                </a>
+            </div>
+
+            <div class="tree tree-left" aria-hidden="true">
+                <span></span>
+                <i></i>
+                <b></b>
+            </div>
+
+            <div class="ground" aria-hidden="true">
+                <div class="grass"></div>
+            </div>
+
+            <div class="pixel-cat" aria-hidden="true">
+                <span class="cat-ear left"></span>
+                <span class="cat-ear right"></span>
+                <span class="cat-eyes"></span>
+            </div>
+
+            <div class="hero-bottom-note">
+                ✦ THE ADVENTURE STARTS HERE ✦
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="section about-section" id="about">
+            <div class="section-heading">
+                <span class="section-index">01 / PLAYER PROFILE</span>
+                <h2>ABOUT THE <em>PLAYER</em></h2>
+                <p>Kenali karakter di balik perjalanan digital ini.</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="profile-panel panel">
+                    <div class="panel-top">
+                        <span>PLAYER CARD</span>
+                        <span class="pixel-heart">♥ ♥ ♥</span>
+                    </div>
+
+                    <div class="avatar-frame">
+                        <img src="assets/images/augustav.jpg" alt="Foto profil Augustav"
+                            onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+
+                        <div class="avatar-placeholder">
+                            <span>AF</span>
+                            <small>ADD YOUR PHOTO</small>
+                        </div>
+                    </div>
+
+                    <h3>Augustav Fahrul Alzaiya</h3>
+                    <p class="muted">Informatics Graduate</p>
+
+                    <div class="profile-tags">
+                        <span>Backend</span>
+                        <span>Networking</span>
+                        <span>Testing</span>
+                    </div>
+
+                    <div class="profile-level">
+                        <span>JOURNEY STATUS</span>
+                        <strong>CONTINUOUSLY LEARNING</strong>
+                    </div>
+                </div>
+
+                <div class="about-copy">
+                    <div class="terminal-label">
+                        <span class="terminal-dot"></span>
+                        ABOUT_ME.TXT
+                    </div>
+
+                    <p>
+                        Saya adalah lulusan S1 Informatika Universitas Ahmad Dahlan
+                        dengan latar belakang Teknik Komputer dan Jaringan (TKJ).
+                        Memiliki pemahaman dasar dalam jaringan komputer, konfigurasi
+                        perangkat jaringan, firewall, DHCP, DNS, serta troubleshooting
+                        hardware dan software.
+                    </p>
+
+                    <p>
+                        Berpengalaman melakukan pengujian aplikasi pendataan UMKM
+                        dari sisi pengguna dan memberikan feedback terkait fungsi,
+                        kemudahan penggunaan, serta kendala aplikasi.
+                    </p>
+
+                    <p>
+                        Memiliki kemampuan belajar dan beradaptasi dengan baik
+                        serta mampu bekerja secara individu maupun dalam tim.
+                    </p>
+
+                    <div class="quick-stats">
+                        <div>
+                            <strong>3.67</strong>
+                            <span>GPA / 4.00</span>
+                        </div>
+
+                        <div>
+                            <strong>S1</strong>
+                            <span>INFORMATIKA</span>
+                        </div>
+
+                        <div>
+                            <strong>2026</strong>
+                            <span>GRADUATION</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE SECTION -->
+        <section class="section darker-section" id="experience">
+            <div class="section-heading">
+                <span class="section-index">02 / ADVENTURE LOG</span>
+                <h2>MY <em>EXPERIENCE</em></h2>
+                <p>Jejak pengalaman dan misi yang pernah dijalani.</p>
+            </div>
+
+            <div class="timeline">
+
+                <article class="timeline-item panel">
+                    <div class="timeline-marker">01</div>
+
+                    <div class="timeline-meta">
+                        <span class="quest-status">COMPLETED QUEST</span>
+                        <span>OCT 2025 — JAN 2026</span>
+                    </div>
+
+                    <h3>Dinas Perindustrian Koperasi dan UKM Kota Yogyakarta</h3>
+
+                    <p class="role">
+                        Application Tester <span>·</span> Yogyakarta
+                    </p>
+
+                    <ul>
+                        <li>Melakukan pengujian aplikasi pendataan UMKM dari sisi pengguna.</li>
+                        <li>Mengidentifikasi kendala dan ketidaksesuaian fungsi selama proses pengujian.</li>
+                        <li>Memberikan feedback terkait fungsi, kemudahan penggunaan, dan pengalaman pengguna.</li>
+                        <li>Menyampaikan temuan sebagai bahan evaluasi dan pengembangan aplikasi.</li>
+                    </ul>
+                </article>
+
+                <article class="timeline-item panel">
+                    <div class="timeline-marker">02</div>
+
+                    <div class="timeline-meta">
+                        <span class="quest-status">COMPLETED QUEST</span>
+                        <span>MAR 2025 — MAR 2026</span>
+                    </div>
+
+                    <h3>FlyWithUs</h3>
+
+                    <p class="role">
+                        Backend Developer <span>·</span> Yogyakarta
+                    </p>
+
+                    <p class="muted">
+                        Website penyewaan jasa pengambilan video dan editing
+                        menggunakan kamera dan drone.
+                    </p>
+
+                    <ul>
+                        <li>Mengelola integrasi dan fungsionalitas antarhalaman website untuk memastikan seluruh fitur berjalan dengan baik.</li>
+                        <li>Mengembangkan integrasi API YouTube, WhatsApp, dan Instagram agar website terhubung dengan platform eksternal.</li>
+                        <li>Merancang, mengelola, dan memelihara database pelanggan serta client untuk mendukung kebutuhan operasional website.</li>
+                    </ul>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- EDUCATION SECTION -->
+        <section class="section" id="education">
+            <div class="section-heading">
+                <span class="section-index">03 / ACADEMIC JOURNEY</span>
+                <h2>LEVEL <em>UP</em></h2>
+                <p>Perjalanan pendidikan dan pencapaian akademik.</p>
+            </div>
+
+            <article class="education-card panel">
+                <div class="edu-icon">✦</div>
+
+                <div class="edu-content">
+                    <span class="quest-status">ACADEMIC ACHIEVEMENT</span>
+
+                    <h3>Universitas Ahmad Dahlan</h3>
+                    <p>Daerah Istimewa Yogyakarta, Indonesia</p>
+
+                    <div class="edu-details">
+                        <span>SEPT 2022 — JUL 2026</span>
+                        <span>BACHELOR OF INFORMATICS</span>
+                        <span>GPA 3.67 / 4.00</span>
+                    </div>
+                </div>
+
+                <div class="cumlaude-badge">
+                    <span>★</span>
+                    <small>GRADUATED<br>CUMLAUDE</small>
+                </div>
+            </article>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section class="section darker-section" id="skills">
+            <div class="section-heading">
+                <span class="section-index">04 / PLAYER ABILITIES</span>
+                <h2>SKILL <em>TREE</em></h2>
+                <p>Kemampuan yang terus diasah dan dikembangkan.</p>
+            </div>
+
+            <div class="skills-grid">
+
+                <article class="skill-card panel">
+                    <div class="skill-icon">⌘</div>
+                    <h3>Programming & Development</h3>
+                    <p>Building and maintaining digital experiences.</p>
+
+                    <div class="skill-list">
+                        <span>Backend Development</span>
+                        <span>Website Development</span>
+                        <span>API Integration</span>
+                        <span>Database Management</span>
+                        <span>Application Testing</span>
+                    </div>
+                </article>
+
+                <article class="skill-card panel">
+                    <div class="skill-icon">⌁</div>
+                    <h3>Networking</h3>
+                    <p>Understanding network foundations and configuration.</p>
+
+                    <div class="skill-list">
+                        <span>Basic Computer Networking</span>
+                        <span>Network Device Configuration</span>
+                        <span>Firewall</span>
+                        <span>DHCP & DNS</span>
+                        <span>Network Troubleshooting</span>
+                        <span>Subnetting</span>
+                        <span>DDoS</span>
+                        <span>Mikrotik</span>
+                        <span>Cisco</span>
+                    </div>
+                </article>
+
+                <article class="skill-card panel">
+                    <div class="skill-icon">⚙</div>
+                    <h3>Hardware & Software</h3>
+                    <p>Computer maintenance, installation, and troubleshooting.</p>
+
+                    <div class="skill-list">
+                        <span>Computer & Laptop Troubleshooting</span>
+                        <span>Hardware Installation & Upgrade</span>
+                        <span>Thermal Paste Replacement</span>
+                        <span>Windows OS Installation</span>
+                        <span>Linux OS Installation</span>
+                        <span>Software Installation & Configuration</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="section" id="projects">
+            <div class="section-heading">
+                <span class="section-index">05 / MY CREATIONS</span>
+                <h2>PROJECT <em>INVENTORY</em></h2>
+                <p>Beberapa karya dan proyek yang pernah saya kerjakan.</p>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card panel">
+                    <div class="project-art coffee-art">
+                        <span>☕</span>
+                        <small>COFFEE WEBSITE</small>
+                    </div>
+
+                    <div class="project-body">
+                        <span class="project-type">LIVE WEBSITE</span>
+                        <h3>Kopi Sore</h3>
+                        <p>Website profil bisnis kopi yang menampilkan identitas dan informasi usaha.</p>
+
+                        <a class="text-link" href="https://wakjay048.github.io/kopisore12/"
+                            target="_blank" rel="noopener noreferrer">
+                            Live Preview ↗
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card panel">
+                    <div class="project-art dzlfh-art">
+                        <span>✦</span>
+                        <small>PERSONAL PROJECT</small>
+                    </div>
+
+                    <div class="project-body">
+                        <span class="project-type">LIVE WEBSITE</span>
+                        <h3>DZLFH</h3>
+                        <p>Website project personal yang dapat dikunjungi melalui tautan proyek.</p>
+
+                        <a class="text-link" href="https://wakjay048.github.io/dzlfh/"
+                            target="_blank" rel="noopener noreferrer">
+                            Live Preview ↗
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card panel">
+                    <div class="project-art ps-art">
+                        <span>🎮</span>
+                        <small>RENTAL SYSTEM</small>
+                    </div>
+
+                    <div class="project-body">
+                        <span class="project-type">WEBSITE PROJECT · 2025</span>
+                        <h3>Website Rental PS5</h3>
+                        <p>Website penyewaan PS5 dengan pemilihan paket, stik, dan disc/game dalam proses pemesanan.</p>
+
+                        <a href="https://youtu.be/WUk-JuOy8zc?si=wM7Qh0fEXCCOvuSK"
+                            class="project-note" target="_blank" rel="noopener noreferrer">
+                            LINK PREVIEW ↗
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card panel">
+                    <div class="project-art game-art">
+                        <span>🕹</span>
+                        <small>UNITY · EDUCATION</small>
+                    </div>
+
+                    <div class="project-body">
+                        <span class="project-type">GAME PROJECT · 2025</span>
+                        <h3>Educational Game</h3>
+                        <p>Game sederhana edukasi pengetahuan umum interaktif menggunakan Unity sebagai media pembelajaran.</p>
+
+                        <a href="https://youtu.be/XVlogYCMR4M?si=ECwzAnxYyasgrQ_Q"
+                            class="project-note" target="_blank" rel="noopener noreferrer">
+                            LINK PREVIEW ↗
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- <article class="cert-card panel">
+    <div class="cert-preview">
+        <iframe
+            src="assets/sertifikat/gemini.pdf#page=1&toolbar=0&navpanes=0&scrollbar=0"
+            title="Preview Sertifikat 01"
+            loading="lazy">
+        </iframe>
+
+        <button
+            class="cert-open"
+            data-pdf="assets/sertifikat/gemini.pdf">
+            Lihat Sertifikat
+        </button>
+    </div>
+
+    <div class="cert-caption">
+        <h3>Gemini</h3>
+        <p>Tambahkan nama atau penyelenggara sertifikat.</p>
+
+        <div class="cert-actions">
+            <button
+                class="cert-open"
+                data-pdf="assets/sertifikat/gemini.pdf">
+                Lihat PDF ↗
+            </button>
+
+            <a href="assets/sertifikat/gemini.pdf" download>
+                Download ↓
+            </a>
+        </div>
+    </div>
+</article> -->
+
+        <!-- CERTIFICATES SECTION -->
+        <section class="section darker-section" id="certificates">
+            <div class="section-heading">
+                <span class="section-index">06 / ACHIEVEMENT COLLECTION</span>
+                <h2>MY <em>ACHIEVEMENTS</em></h2>
+                <p>Dokumentasi sertifikat dan pencapaian yang telah saya peroleh.</p>
+            </div>
+
+            <div class="cert-grid">
+
+                <article class="cert-card panel">
+                    <div class="pdf-preview">
+                        <span><iframe src="assets/sertifikat/gemini.pdf#page=1&toolbar=0&navpanes=0&scrollbar=0" loading="lazy"> </iframe></span>
+                        <span class="pdf-preview-label">CERTIFICATE 01</span>
+                    </div>
+
+                    <div class="cert-caption">
+                        <h3>Gemini</h3>
+                        <p>Tambahkan nama atau penyelenggara sertifikat.</p>
+
+                        <div class="cert-actions">
+                            <button class="cert-open" data-pdf="assets/sertifikat/gemini.pdf">
+                                Lihat PDF ↗
+                            </button>
+                            <a href="assets/sertifikat/gemini.pdf" download>
+                                Download ↓
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cert-card panel">
+                    <div class="pdf-preview">
+                        <span><iframe src="assets/sertifikat/coursera.pdf#page=1&toolbar=0&navpanes=0&scrollbar=0" loading="lazy"> </iframe></span>
+                        <span class="pdf-preview-label">CERTIFICATE 02</span>
+                    </div>
+
+                    <div class="cert-caption">
+                        <h3>Certificate 02</h3>
+                        <p>Tambahkan nama atau penyelenggara sertifikat.</p>
+
+                        <div class="cert-actions">
+                            <button class="cert-open" data-pdf="assets/sertifikat/coursera.pdf">
+                                Lihat PDF ↗
+                            </button>
+                            <a href="assets/sertifikat/coursera.pdf" download>
+                                Download ↓
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cert-card panel">
+                    <div class="pdf-preview">
+                        <span><iframe src="assets/sertifikat/aguna.pdf#page=1&toolbar=0&navpanes=0&scrollbar=0" loading="lazy"> </iframe></span>
+                        <span class="pdf-preview-label">CERTIFICATE 03</span>
+                    </div>
+
+                    <div class="cert-caption">
+                        <h3>Certificate 03</h3>
+                        <p>Tambahkan nama atau penyelenggara sertifikat.</p>
+
+                        <div class="cert-actions">
+                            <button class="cert-open" data-pdf="assets/sertifikat/aguna.pdf">
+                                Lihat PDF ↗
+                            </button>
+                            <a href="assets/sertifikat/aguna.pdf" download>
+                                Download ↓
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cert-card panel">
+                    <div class="pdf-preview">
+                        <span><iframe src="assets/sertifikat/cisco.pdf#page=1&toolbar=0&navpanes=0&scrollbar=0" loading="lazy"> </iframe></span>
+                        <span class="pdf-preview-label">CERTIFICATE 04</span>
+                    </div>
+
+                    <div class="cert-caption">
+                        <h3>Certificate 04</h3>
+                        <p>Tambahkan nama atau penyelenggara sertifikat.</p>
+
+                        <div class="cert-actions">
+                            <button class="cert-open" data-pdf="assets/sertifikat/cisco.pdf">
+                                Lihat PDF ↗
+                            </button>
+                            <a href="assets/sertifikat/cicso.pdf" download>
+                                Download ↓
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cert-card panel">
+                    <div class="pdf-preview">
+                        <span><iframe src="assets/sertifikat/jaringan.pdf#page=1&toolbar=0&navpanes=0&scrollbar=0" loading="lazy"> </iframe></span>
+                        <span class="pdf-preview-label">CERTIFICATE 05</span>
+                    </div>
+
+                    <div class="cert-caption">
+                        <h3>Certificate 05</h3>
+                        <p>Tambahkan nama atau penyelenggara sertifikat.</p>
+
+                        <div class="cert-actions">
+                            <button class="cert-open" data-pdf="assets/sertifikat/jaringan.pdf">
+                                Lihat PDF ↗
+                            </button>
+                            <a href="assets/sertifikat/jaringan.pdf" download>
+                                Download ↓
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- PUBLICATION SECTION -->
+        <section class="section publication-section" id="publication">
+            <div class="section-heading">
+                <span class="section-index">07 / RESEARCH ARCHIVE</span>
+                <h2>RESEARCH & <em>PUBLICATION</em></h2>
+                <p>Publikasi ilmiah dan perjalanan eksplorasi pengetahuan.</p>
+            </div>
+
+            <article class="publication-card panel">
+                <div class="publication-seal">
+                    IJCA
+                    <span>2026</span>
+                </div>
+
+                <div class="publication-info">
+                    <span class="quest-status">UNLOCKED RESEARCH</span>
+
+                    <h3>
+                        Forensic Analysis of Distributed Denial of Service Attacks
+                        using National Institute of Standards and Technology Method
+                    </h3>
+
+                    <p>
+                        International Journal of Computer Applications (IJCA) · 2026
+                    </p>
+
+                    <a class="btn btn-primary"
+                        href="https://www.ijcaonline.org/archives/volume187/number122/forensic-analysis-of-distributed-denial-of-service-attacks-using-national-institute-of-standards-and-technology-method/"
+                        target="_blank" rel="noopener noreferrer">
+                        Read My Publication ↗
+                    </a>
+                </div>
+            </article>
+
+            <article class="training-card panel">
+                <div class="training-icon">✧</div>
+
+                <div>
+                    <span class="quest-status">LEARNING RECORD · 2026</span>
+                    <h3>Gemini - Credential Renderer</h3>
+
+                    <p>
+                        Pelatihan mengenai pengetahuan, keterampilan, dan kompetensi
+                        dasar yang diperlukan untuk menggunakan AI Google
+                        di lingkungan pendidikan.
+                    </p>
+                </div>
+            </article>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="section contact-section" id="contact">
+            <div class="section-heading">
+                <span class="section-index">08 / COMMUNICATION TERMINAL</span>
+                <h2>LET'S <em>CONNECT</em></h2>
+                <p>Punya kesempatan atau proyek menarik? Mari terhubung.</p>
+            </div>
+
+            <div class="contact-panel panel">
+                <div class="contact-copy">
+                    <span class="quest-status">NPC INTERACTION AVAILABLE</span>
+                    <h3>Ready for the next quest?</h3>
+
+                    <p>
+                        Terbuka untuk kesempatan belajar, kolaborasi,
+                        dan pengembangan di bidang teknologi.
+                    </p>
+                </div>
+
+                <div class="contact-details">
+                    <a href="mailto:augustav7402@gmail.com">
+                        <span>EMAIL</span>
+                        <strong>augustav7402@gmail.com ↗</strong>
+                    </a>
+
+                    <a href="https://wa.me/6282269548739"
+                        target="_blank" rel="noopener noreferrer">
+                        <span>WHATSAPP</span>
+                        <strong>+62 822-6954-8739 ↗</strong>
+                    </a>
+
+                    <div>
+                        <span>LOCATION</span>
+                        <strong>Muntok, Bangka Barat, Kepulauan Bangka Belitung</strong>
+                    </div>
+                </div>
+
+                <div class="contact-actions">
+                    <a class="btn btn-primary" href="mailto:augustav7402@gmail.com">
+                        Send Email ↗
+                    </a>
+
+                    <a class="btn btn-ghost" href="https://wa.me/6282269548739"
+                        target="_blank" rel="noopener noreferrer">
+                        WhatsApp Me ↗
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <a class="brand" href="#home">
+            <span class="brand-mark">A</span>
+            <span>AUGUSTAV<span class="brand-dot">.</span></span>
+        </a>
+
+        <p>Built with curiosity, creativity, and a little bit of pixel magic.</p>
+
+        <small>© 2026 Augustav Fahrul Alzaiya. All Rights Reserved.</small>
+    </footer>
+
+    <!-- PDF MODAL -->
+    <div class="pdf-modal" id="pdfModal" role="dialog"
+        aria-modal="true" aria-label="PDF certificate viewer">
+
+        <div class="pdf-modal-toolbar">
+            <strong id="pdfModalTitle">Certificate preview</strong>
+
+            <div>
+                <a id="pdfOpenNew" href="#" target="_blank" rel="noopener noreferrer">
+                    Buka tab baru ↗
+                </a>
+
+                <button class="pdf-modal-close" id="pdfModalClose" aria-label="Tutup">
+                    ×
+                </button>
+            </div>
+        </div>
+
+        <iframe id="pdfFrame" title="Preview PDF sertifikat"></iframe>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
